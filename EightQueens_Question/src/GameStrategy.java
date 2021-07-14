@@ -50,7 +50,6 @@ public class GameStrategy {
 				return isValid;
 			}
 		
-		
 		for(i=row,j=col; i>=0 && j>=0;)
 			if(placedQueens[i--][j--] == true) {
 				isValid = false;
